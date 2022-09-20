@@ -1,5 +1,5 @@
 # create user
-# curl -X POST https://pixe.la/v1/users -d '{"token":"Ilikefood!1", "username":"iamcyruss", "agreeTermsOfService":"yes", "notMinor":"yes"}'
+# curl -X POST https://pixe.la/v1/users -d '{"token":"yum", "username":"iamcyruss", "agreeTermsOfService":"yes", "notMinor":"yes"}'
 
 import requests
 import os
