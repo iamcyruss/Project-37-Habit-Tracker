@@ -3,7 +3,6 @@
 
 import requests
 import os
-
 import datetime
 
 currentDate = datetime.date.today()
@@ -27,6 +26,7 @@ pixela_graph_endpoint = f"{pixela_endpoint}/{USERNAME}/graphs"
 headers = {
     "X-USER-TOKEN": PIXELA_TOKEN,
 }
+
 graph_params = {
     "id": GRAPH_ID,
     "name": "Habit Tracker - Test",
@@ -37,8 +37,8 @@ graph_params = {
 
 #date = input("What's today's date in yyyyMMdd format? ")
 hours = input("How many hours did you spend practicing? ")
-
 create_pixel_endpoint = f"{pixela_endpoint}/{USERNAME}/graphs/{GRAPH_ID}"
+
 graph_update = {
     "date": currentDate,
     "quantity": hours,
