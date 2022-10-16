@@ -7,12 +7,10 @@ import datetime
 
 currentDate = datetime.date.today()
 currentDate = currentDate.strftime("%Y%m%d")
-print(currentDate)
 
 USERNAME = "iamcyruss"
 PIXELA_TOKEN = os.environ.get("PIXELA_TOKEN")
 GRAPH_ID = "pianograph01"
-print(PIXELA_TOKEN)
 pixela_endpoint = "https://pixe.la/v1/users"
 
 user_params = {
